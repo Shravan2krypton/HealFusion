@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body {
+    background: url('images/background.jpeg') no-repeat center center/cover;
+    min-height: 100vh;
+    color: #fff;
+  }
+  
+  header {
+    background-color: rgba(0, 0, 50, 0.7);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+    padding: 5px 10px;
+  }
+  
+  nav a:hover {
+    background: #007BFF;
+    border-radius: 5px;
+  }
+  
+  .dashboard {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 40px;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .dashboard button {
+    background-color: rgba(0, 0, 50, 0.8);
+    border: none;
+    padding: 20px;
+    color: #fff;
+    font-size: 1.1rem;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  }
+  
+  .dashboard button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  .dashboard i {
+    margin-right: 10px;
+    font-size: 1.2rem;
+  }
+  

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AI Symptom Detector - Healfusion</title>
+  <link rel="stylesheet" href="ai.css">
+  <script defer src="ai.js"></script>
+</head>
+<body>
+  <div class="div">
+    <a href="homepage.html">Go Back</a>
+  </div>
+  <div class="container">
+    <h1>AI Symptom & Solution Finder</h1>
+    <input type="text" id="diseaseInput" placeholder="Enter disease (e.g., fever, diabetes)">
+    <button onclick="findSolution()">Find Solution</button>
+
+    <div id="solutionCard" class="solution-card hidden">
+      <h2 id="diseaseName"></h2>
+      <p><strong>Modern Treatment:</strong> <span id="modernTreatment"></span></p>
+      <p><strong>Ayurvedic Remedy:</strong> <span id="ayurvedicRemedy"></span></p>
+
+      <div class="action-buttons">
+        <button>Video Chat with Doctor</button>
+        <button>Buy Recommended Medicine</button>
+        <button>Book Hospital Appointment</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
