@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Video Chat with Doctor - Healfusion</title>
+  <link rel="stylesheet" href="videochat.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Video Chat with Doctor</h1>
+
+    <div class="videos">
+      <video id="my-video" autoplay muted></video>
+      <video id="remote-video" autoplay></video>
+    </div>
+
+    <div class="controls">
+      <input type="text" id="peer-id-input" placeholder="Enter Doctor's ID">
+      <button onclick="callDoctor()">Call Doctor</button>
+    </div>
+
+    <div id="my-peer-id" class="peer-id"></div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/peerjs@1.5.2/dist/peerjs.min.js"></script>
+  <script src="videochat.js"></script>
+</body>
+</html>
