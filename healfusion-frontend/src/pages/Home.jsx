@@ -1,6 +1,9 @@
+import Navbar from "./components/Navbar";
+
 function Home() {
   return (
     <div>
+      <Navbar />
       <h1>HealFusion</h1>
       <p>AI Powered Medical Assistant</p>
 
